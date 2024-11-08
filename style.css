@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+#dark_mode {
+    cursor: pointer;
+    transition: fill 0.3s;
+}
+
+body.dark-mode #dark_mode .moon {
+    fill: #f0e68c; 
+}
+
+.SeccionP {
+    text-align: center;
+}
+  
+h1{
+    font-size: 100px;
+}
